@@ -1,0 +1,1 @@
+To avoid getting all warnings about range-based for loop, use C++11, i.e. `clang++ 1.cpp -o 1 -std=c++11`
