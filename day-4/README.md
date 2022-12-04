@@ -1,0 +1,1 @@
+When entering data not from a file, but from the keyboard, you can simulate the end of the input with the key combination `Ctrl + D` on Linux and macOS or `Ctrl + Z` on Windows.
