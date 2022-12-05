@@ -1,0 +1,1 @@
+Run using C++11, e.g. `clang++ 1.cpp -o 1 -std=c++11`
