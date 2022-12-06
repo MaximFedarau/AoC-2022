@@ -1,0 +1,20 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <set>
+
+int main() {
+    std::ifstream input ("1.txt");
+    std::string line;
+    getline(input, line);
+
+    for (int64_t i = 0; i <= line.size() - 4; i++) {
+        std::string substring = line.substr(i, 4);
+        std::set<char> elements_set(substring.begin(), substring.end());
+        
+        if (substring.size() == elements_set.size()) {
+            std::cout << i + 4 << std::endl;
+            return 0;
+        }
+    }
+}
