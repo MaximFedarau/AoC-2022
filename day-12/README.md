@@ -1,0 +1,2 @@
+- Run using C++20, e.g. `clang++ 1.cpp -o 1 -std=c++20`
+- **Hint:** To solve this task, I used [Dijkstra's algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Algorithm) in the first part & modified it a bit in the second.
